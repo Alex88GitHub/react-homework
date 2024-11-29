@@ -7,7 +7,6 @@ import ShopCard from './components/ShopCard';
 import item from './components/ShopCard/data';
 import Portfolio from './components/Portfolio';
 import projects from './components/ProjectList/projectsData';
-import './App.css';
 
 function App() {
   return (
