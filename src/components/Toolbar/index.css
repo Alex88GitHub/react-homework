@@ -1,0 +1,25 @@
+.filter-list {
+  margin: 0 0 20px;
+  padding: 0;
+  display: flex;
+  gap: 5px;
+}
+
+.filter-list__item {
+  padding: 5px 10px;
+  border: 1px solid #8c8c8b;
+  list-style: none;
+}
+
+.filter-list__item:hover {
+  cursor: pointer;
+}
+
+.filter-list__item.active {
+  background-color: #5e5e5e;
+  color: #ffffff;
+}
+
+.filter-list__item.active:hover {
+  pointer-events: none;
+}

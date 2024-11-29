@@ -1,0 +1,9 @@
+.card-body-stars {
+    margin: 50px 0 0;
+    padding: 0;
+    display: flex;
+}
+
+.u-clearfix li {
+    list-style: none;
+}
